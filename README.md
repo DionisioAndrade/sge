@@ -31,7 +31,3 @@ Dentro do diretório onde está o arquivo **manage.py**, execute:
 ``` bash
 python manage.py runserver
 ```
-
-> ⚠️ **Atenção:**\
-> O comando `runserver` deve ser utilizado **somente em ambiente de
-> desenvolvimento**, nunca em produção.
