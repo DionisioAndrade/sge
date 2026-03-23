@@ -1,8 +1,8 @@
-from brands.models import Brand
 from categories.models import Category
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from categories.form import CategoriesForm
+
 
 class CategoryListView(ListView):
     model = Category
